@@ -337,3 +337,124 @@
 2025-04-09 11:44:23,511 - WARNING - [?] No face found, skipping
 2025-04-09 11:44:23,511 - WARNING - [?] No encoding found even though face was detected
 2025-04-09 11:45:08,935 - INFO - [!] Unknown person detected
+2025-04-16 01:20:50,667 - INFO - Starting detection script...
+2025-04-16 01:20:53,907 - INFO - Webcam opened successfully.
+2025-04-16 01:21:03,449 - WARNING - [?] No face found, skipping
+2025-04-16 01:21:03,449 - WARNING - [?] No encoding found even though face was detected
+2025-04-16 01:39:44,924 - INFO - Webcam opened successfully.
+2025-04-16 01:39:55,020 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:39:57,433 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:00,119 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:02,515 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:05,382 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:08,031 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:10,663 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:13,668 - INFO - [!] Unknown person detected
+2025-04-16 01:40:21,278 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:24,017 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:26,843 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:29,778 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:32,704 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:35,633 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:38,606 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:41,456 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:40:44,449 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:15,979 - INFO - Webcam opened successfully.
+2025-04-16 01:48:25,996 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:29,032 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:31,428 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:34,310 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:36,584 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:39,038 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:41,460 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:44,011 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:46,623 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:48:49,286 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:49:31,656 - INFO - Webcam opened successfully.
+2025-04-16 01:49:44,144 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:49:48,662 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:49:53,791 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:50:18,822 - INFO - Webcam opened successfully.
+2025-04-16 01:50:21,119 - INFO - Webcam opened successfully.
+2025-04-16 01:50:29,926 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:50:33,143 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:50:47,370 - INFO - Webcam opened successfully.
+2025-04-16 01:51:12,632 - INFO - Webcam opened successfully.
+2025-04-16 01:51:22,282 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:24,721 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:27,185 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:29,476 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:31,750 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:34,120 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:36,584 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:39,070 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:41,477 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:43,774 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:46,095 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:48,357 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:50,715 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:53,012 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:55,342 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:51:57,908 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:00,316 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:02,809 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:05,319 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:07,687 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:10,056 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:12,474 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:14,771 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:17,263 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:19,617 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:22,509 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:24,902 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:27,293 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:29,628 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:34,467 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:37,045 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:39,644 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:42,213 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:45,463 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:48,135 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:52:57,079 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:11,981 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:14,367 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:16,727 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:19,228 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:21,693 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:24,577 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:27,768 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:30,850 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:34,328 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:37,534 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:40,735 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:43,249 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:45,692 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:46,094 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:48,830 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:51,437 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:54,005 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:56,687 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:53:59,444 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:01,922 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:04,475 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:11,672 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:21,693 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:25,035 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 01:54:30,523 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:17:40,806 - INFO - Webcam opened successfully.
+2025-04-16 02:17:51,653 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:17:54,078 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:17:56,586 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:17:58,828 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:01,240 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:03,605 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:05,912 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:08,148 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:17,645 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:20,054 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:22,550 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:24,935 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:27,418 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:30,028 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:32,569 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:18:34,954 - INFO - [+] Recognized: Koba Kvantrishvili

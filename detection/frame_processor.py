@@ -45,35 +45,42 @@ def deep_analyzer(frame, results, frame_buffer, fps):
             if object_crop.size == 0:
                 continue
 
+            name = "Unknown"
+            should_record = False
+
             rgb_face = cv2.cvtColor(object_crop, cv2.COLOR_BGR2RGB)
             face_locations = face_recognition.face_locations(rgb_face)
+
             if not face_locations:
-                continue
-
-            unknown_encodings = face_recognition.face_encodings(rgb_face, face_locations)
-            if not unknown_encodings:
-                continue
-
-            encoding = unknown_encodings[0]
-            matches = face_recognition.compare_faces(list(known_faces.values()), encoding)
-
-            if True in matches:
-                name = list(known_faces.keys())[matches.index(True)]
-                logger.info(f"[+] Recognized: {name}")
+                should_record = True  # couldn't locate face at all
             else:
-                name = "Unknown"
-                if current_time - last_unknown_clip_time > COOLDOWN_SECONDS:
-                    logger.info("[!] Unknown person detected")
-                    threading.Thread(
-                        target=save_detection_clip,
-                        args=(list(frame_buffer), fps, "unknown_person"),
-                        daemon=True
-                    ).start()
-                    last_unknown_clip_time = current_time
+                unknown_encodings = face_recognition.face_encodings(rgb_face, face_locations)
+                if not unknown_encodings:
+                    should_record = True  # face located but no encoding
+                else:
+                    encoding = unknown_encodings[0]
+                    matches = face_recognition.compare_faces(list(known_faces.values()), encoding)
+
+                    if True in matches:
+                        name = list(known_faces.keys())[matches.index(True)]
+                        logger.info(f"[+] Recognized: {name}")
+                    else:
+                        name = "Unrecognized"
+                        should_record = True
+
+            if should_record and (current_time - last_unknown_clip_time > COOLDOWN_SECONDS):
+                logger.info(f"[!] Detected {name}, saving clip...")
+                threading.Thread(
+                    target=save_detection_clip,
+                    args=(list(frame_buffer), fps, "unknown_person"),
+                    daemon=True
+                ).start()
+                last_unknown_clip_time = current_time
 
             updated_tracks[(x1, y1, x2, y2)] = name
 
     return updated_tracks
+
 
 
 def simple_drawer(frame, results, track_info):
@@ -88,17 +95,22 @@ def simple_drawer(frame, results, track_info):
             name = "Car" if class_id == 3 else "Person"
 
             if class_id == 0:
+                label = ""
                 for (tx1, ty1, tx2, ty2), tracked_name in track_info.items():
                     if _iou((x1, y1, x2, y2), (tx1, ty1, tx2, ty2)) > 0.5:
-                        name = tracked_name
+                        label = tracked_name
+                        name += f" ({tracked_name})"
                         break
 
-                color = (0, 255, 0) if name != "Unknown" else (0, 255, 255)
-            else:
-                color = (255, 0, 0) 
+                if label == "Unknown":
+                    color = (0, 255, 255)  # Yellow
+                elif label == "Unrecognized":
+                    color = (0, 0, 255)  # Red
+                else:
+                    color = (0, 255, 0)  # Green
 
             cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
-            cv2.putText(frame, f"{name} - {confidence*100:.2f}%", (x1, y1 - 10),
+            cv2.putText(frame, f"{name}  - {confidence*100:.2f}%", (x1, y1 - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
 
     return frame

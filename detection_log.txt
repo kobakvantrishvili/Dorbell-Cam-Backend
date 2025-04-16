@@ -458,3 +458,39 @@
 2025-04-16 02:18:30,028 - INFO - [+] Recognized: Koba Kvantrishvili
 2025-04-16 02:18:32,569 - INFO - [+] Recognized: Koba Kvantrishvili
 2025-04-16 02:18:34,954 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:16,236 - INFO - Webcam opened successfully.
+2025-04-16 02:22:26,413 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:28,852 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:31,375 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:33,920 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:36,666 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:39,124 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:51,436 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:54,016 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:22:58,816 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:03,185 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:03,576 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:06,055 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:08,375 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:13,387 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:16,153 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:23:18,828 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-16 02:27:14,948 - INFO - Webcam opened successfully.
+2025-04-16 02:27:25,210 - INFO - [!] Unknown person detected
+2025-04-16 02:27:37,984 - INFO - [!] Unknown person detected
+2025-04-16 02:27:47,815 - INFO - [!] Unknown person detected
+2025-04-16 02:27:58,169 - INFO - [!] Unknown person detected
+2025-04-16 02:28:08,405 - INFO - [!] Unknown person detected
+2025-04-16 02:34:33,492 - INFO - Webcam opened successfully.
+2025-04-16 02:34:44,000 - INFO - [!] Unknown person detected
+2025-04-16 02:34:55,915 - INFO - [!] Unknown person detected
+2025-04-16 02:35:07,476 - INFO - [!] Unknown person detected
+2025-04-16 02:35:20,512 - INFO - [!] Unknown person detected
+2025-04-16 02:41:44,218 - INFO - Webcam opened successfully.
+2025-04-16 02:41:55,411 - INFO - [!] Unknown person detected
+2025-04-16 02:42:07,171 - INFO - [!] Unknown person detected
+2025-04-16 02:44:12,104 - INFO - Webcam opened successfully.
+2025-04-16 02:44:23,576 - INFO - [!] Unknown person detected
+2025-04-16 02:44:35,495 - INFO - [!] Unknown person detected
+2025-04-16 02:47:23,536 - INFO - Webcam opened successfully.
+2025-04-16 02:47:34,315 - INFO - [!] Unknown person detected

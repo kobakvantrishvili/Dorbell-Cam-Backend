@@ -1,12 +1,22 @@
 import cv2
 import queue
 import threading
+import time
 from ultralytics import YOLO
-from .frame_processor import handle_frame
+from .frame_processor import run_full_frame_pipeline
 from utils.logger import logger
 
-
-logger.info("Starting detection script...")
+def frame_grabber(cap, buffer_queue, width, height, fps):
+    delay = 1 / fps
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            continue
+        frame = cv2.resize(frame, (width, height))
+        if buffer_queue.full():
+            buffer_queue.get()
+        buffer_queue.put(frame)
+        time.sleep(delay)  # ensures consistent 30 fps grabbing
 
 def start_detection(model_path):
     yolo_model = YOLO(model_path)
@@ -15,57 +25,51 @@ def start_detection(model_path):
     if not cap.isOpened():
         logger.error("Could not open webcam.")
         return
-    else:
-        logger.info("Webcam opened successfully.")
+
+    logger.info("Webcam opened successfully.")
 
     desired_width = 1920
     desired_height = int(desired_width * (9 / 16))
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, desired_width)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, desired_height)
-    cap.set(cv2.CAP_PROP_FPS, 30)
-
-    initial_window_width = 720
-    initial_window_height = int(initial_window_width * (9 / 16))
-    cv2.namedWindow("Face Recognition with YOLOv8", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("Face Recognition with YOLOv8", initial_window_width, initial_window_height)
-
-    frame_queue = queue.Queue(maxsize=30)
-    output_queue = queue.Queue(maxsize=60)
-
-    frame_buffer = []
-    max_buffer_len = 300  # 10 seconds at 30fps
     fps = 30
 
-    def process_frame():
-        while True:
-            if not frame_queue.empty():
-                frame = frame_queue.get()
-                results = yolo_model(frame)
-                processed = handle_frame(frame, results, frame_buffer, fps)
-                if not output_queue.full():
-                    output_queue.put(processed)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, desired_width)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, desired_height)
+    cap.set(cv2.CAP_PROP_FPS, fps)
 
-    threading.Thread(target=process_frame, daemon=True).start()
+    cv2.namedWindow("Face Recognition with YOLOv8", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("Face Recognition with YOLOv8", 720, int(720 * (9 / 16)))
+
+    # Thread-safe circular buffer of 10 seconds
+    frame_buffer = queue.Queue(maxsize=fps * 10)
+    frame_counter = 0
+
+    # Start background thread to grab raw frames at 30 FPS
+    capture_thread = threading.Thread(
+        target=frame_grabber,
+        args=(cap, frame_buffer, desired_width, desired_height, fps),
+        daemon=True
+    )
+    capture_thread.start()
 
     while True:
-        ret, frame = cap.read()
-        if not ret or cv2.waitKey(5) & 0xFF == ord("q"):
+        if frame_buffer.empty():
+            continue
+
+        # Use the latest available frame for detection
+        frame = frame_buffer.queue[-1].copy()
+        frame_counter += 1
+
+        results = yolo_model(frame)
+
+        processed_frame = run_full_frame_pipeline(
+            frame, results, list(frame_buffer.queue), fps, frame_counter
+        )
+
+        cv2.imshow("Face Recognition with YOLOv8", processed_frame)
+
+        if cv2.waitKey(5) & 0xFF == ord("q") or \
+           cv2.getWindowProperty("Face Recognition with YOLOv8", cv2.WND_PROP_VISIBLE) < 1:
             break
-        frame = cv2.resize(frame, (desired_width, desired_height))
-        if cv2.getWindowProperty("Face Recognition with YOLOv8", cv2.WND_PROP_VISIBLE) < 1:
-            break
-
-        frame_buffer.append(frame.copy())
-        if len(frame_buffer) > max_buffer_len:
-            frame_buffer.pop(0)
-
-        if frame_queue.full():
-            frame_queue.get()
-        frame_queue.put(frame)
-
-        if not output_queue.empty():
-            out_frame = output_queue.get()
-            cv2.imshow("Face Recognition with YOLOv8", out_frame)
 
     cap.release()
     cv2.destroyAllWindows()

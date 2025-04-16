@@ -40,6 +40,30 @@ async def upload_image(name: str = Form(...), file: UploadFile = File(...)):
 
     return {"message": "Image uploaded and cached successfully."}
 
+@app.get("/faces/")
+def list_faces():
+    faces = []
+    for f in fs_faces.find():
+        faces.append(f.filename)
+    return {"known_faces": faces}
+
+@app.delete("/faces/{name}")
+def delete_face(name: str):
+    deleted = False
+
+    for file in fs_faces.find({"filename": name}):
+        fs_faces.delete(file._id)
+        deleted = True
+
+    cache_path = f"{CACHE_DIR}/{name}.pkl"
+    if os.path.exists(cache_path):
+        os.remove(cache_path)
+        deleted = True
+
+    if deleted:
+        return {"message": f"Deleted face '{name}' from database and cache."}
+    else:
+        raise HTTPException(status_code=404, detail="Face not found")
 
 @app.post("/run-detection/")
 async def run_detection():

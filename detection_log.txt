@@ -1,0 +1,339 @@
+2025-04-09 02:41:59,170 - INFO - Starting detection script...
+2025-04-09 02:43:32,271 - INFO - Starting detection script...
+2025-04-09 02:43:35,251 - INFO - Webcam opened successfully.
+2025-04-09 02:49:44,955 - INFO - Starting detection script...
+2025-04-09 02:49:47,498 - INFO - Webcam opened successfully.
+2025-04-09 02:51:06,062 - INFO - Starting detection script...
+2025-04-09 02:51:08,510 - INFO - Webcam opened successfully.
+2025-04-09 02:59:30,937 - INFO - Starting detection script...
+2025-04-09 02:59:33,412 - INFO - Webcam opened successfully.
+2025-04-09 03:00:31,564 - INFO - Starting detection script...
+2025-04-09 03:00:34,112 - INFO - Webcam opened successfully.
+2025-04-09 03:00:56,114 - INFO - [!] Unknown person detected
+2025-04-09 03:01:00,420 - INFO - [!] Unknown person detected
+2025-04-09 03:28:25,366 - INFO - Starting detection script...
+2025-04-09 03:28:28,630 - INFO - Webcam opened successfully.
+2025-04-09 03:29:35,002 - INFO - [!] Unknown person detected
+2025-04-09 03:40:40,947 - INFO - Starting detection script...
+2025-04-09 03:40:43,830 - INFO - Webcam opened successfully.
+2025-04-09 03:43:50,340 - INFO - Starting detection script...
+2025-04-09 03:43:52,934 - INFO - Webcam opened successfully.
+2025-04-09 03:50:50,535 - INFO - Starting detection script...
+2025-04-09 03:50:53,013 - INFO - Webcam opened successfully.
+2025-04-09 03:53:27,221 - INFO - Starting detection script...
+2025-04-09 03:53:30,081 - INFO - Webcam opened successfully.
+2025-04-09 03:54:07,732 - INFO - [!] Unknown person detected
+2025-04-09 03:55:37,790 - INFO - Starting detection script...
+2025-04-09 03:55:40,994 - INFO - Webcam opened successfully.
+2025-04-09 03:55:43,594 - INFO - Starting detection script...
+2025-04-09 03:55:46,214 - INFO - Webcam opened successfully.
+2025-04-09 03:56:46,662 - INFO - Starting detection script...
+2025-04-09 03:56:49,213 - INFO - Webcam opened successfully.
+2025-04-09 04:02:04,090 - INFO - Starting detection script...
+2025-04-09 04:02:06,953 - INFO - Webcam opened successfully.
+2025-04-09 04:03:15,878 - INFO - [!] Unknown person detected
+2025-04-09 04:08:12,430 - INFO - [!] Unknown person detected
+2025-04-09 04:08:32,664 - INFO - [!] Unknown person detected
+2025-04-09 04:08:39,071 - INFO - [!] Unknown person detected
+2025-04-09 04:12:32,918 - INFO - [!] Unknown person detected
+2025-04-09 04:15:59,087 - INFO - Starting detection script...
+2025-04-09 04:16:01,798 - INFO - Webcam opened successfully.
+2025-04-09 04:16:11,624 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:16:12,109 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:16:12,556 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:16:12,995 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:16:33,325 - INFO - [!] Unknown person detected
+2025-04-09 04:16:45,946 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:16:50,854 - INFO - [!] Unknown person detected
+2025-04-09 04:17:01,301 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:17:03,464 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:17:46,098 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:07,888 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:08,636 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:09,266 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:09,918 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:10,535 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:11,105 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:11,824 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:13,308 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:13,794 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:18:16,704 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:27:07,428 - INFO - Starting detection script...
+2025-04-09 04:27:10,266 - INFO - Webcam opened successfully.
+2025-04-09 04:27:21,043 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-09 04:28:28,891 - INFO - Starting detection script...
+2025-04-09 04:28:31,351 - INFO - Webcam opened successfully.
+2025-04-09 04:30:10,275 - INFO - Starting detection script...
+2025-04-09 04:30:13,002 - INFO - Webcam opened successfully.
+2025-04-09 04:30:29,624 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:30,171 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:30,695 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:31,225 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:31,807 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:32,331 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:32,873 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:33,402 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:33,940 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:34,403 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:34,812 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:35,223 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:35,636 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:36,041 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:36,454 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:36,894 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:37,295 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:37,710 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:38,111 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:38,546 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:38,957 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:39,403 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:39,832 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:40,250 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:52,404 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:30:52,809 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:35:28,584 - INFO - Starting detection script...
+2025-04-09 04:35:31,058 - INFO - Webcam opened successfully.
+2025-04-09 04:35:56,695 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:57,162 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:57,604 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:58,043 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:58,485 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:58,940 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:59,382 - WARNING - [?] No face found, skipping
+2025-04-09 04:35:59,833 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:00,265 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:00,706 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:01,129 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:01,568 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:02,018 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:02,539 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:03,042 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:03,505 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:04,003 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:04,493 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:10,965 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:11,850 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:12,192 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:12,522 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:12,834 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:13,156 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:13,467 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:13,774 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:14,092 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:14,400 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:14,705 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:15,020 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:15,352 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:15,659 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:15,987 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:16,320 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:16,655 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:16,996 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:17,307 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:17,652 - WARNING - [?] No face found, skipping
+2025-04-09 04:36:18,005 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:40,169 - INFO - Starting detection script...
+2025-04-09 04:38:42,650 - INFO - Webcam opened successfully.
+2025-04-09 04:38:51,551 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:51,551 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:51,988 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:51,988 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:53,167 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:53,168 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:53,607 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:53,607 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:56,067 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:56,067 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:56,467 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:56,467 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:56,875 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:56,875 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:59,245 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:59,245 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:59,622 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:59,622 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:38:59,994 - WARNING - [?] No face found, skipping
+2025-04-09 04:38:59,994 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:00,394 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:00,394 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:00,755 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:00,755 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:01,111 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:01,111 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:01,502 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:01,502 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:01,857 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:01,857 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:02,228 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:02,228 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:02,586 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:02,586 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:02,974 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:02,975 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:03,346 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:03,346 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:03,721 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:03,721 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:04,095 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:04,096 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:04,450 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:04,451 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:04,827 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:04,827 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:17,712 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:17,712 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:18,183 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:18,183 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:18,696 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:18,696 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:19,220 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:19,220 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:19,711 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:19,711 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:20,230 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:20,230 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:20,729 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:20,729 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:21,219 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:21,219 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:21,721 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:21,721 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:39:22,206 - WARNING - [?] No face found, skipping
+2025-04-09 04:39:22,206 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:40:16,947 - INFO - Starting detection script...
+2025-04-09 04:40:19,426 - INFO - Webcam opened successfully.
+2025-04-09 04:40:29,592 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-09 04:40:30,822 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:44:34,515 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-09 04:45:23,329 - INFO - [!] Unknown person detected
+2025-04-09 04:47:39,546 - INFO - Starting detection script...
+2025-04-09 04:47:42,335 - INFO - Webcam opened successfully.
+2025-04-09 04:47:51,816 - INFO - [+] Recognized: Koba Kvantrishvili
+2025-04-09 04:47:53,206 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:47:54,212 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:49:40,108 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:50:14,806 - INFO - Starting detection script...
+2025-04-09 04:50:17,577 - INFO - Webcam opened successfully.
+2025-04-09 04:50:27,007 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:50:27,669 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:50:29,484 - WARNING - [?] No face found in crop, skipping
+2025-04-09 04:51:14,464 - INFO - Starting detection script...
+2025-04-09 04:51:16,872 - INFO - Webcam opened successfully.
+2025-04-09 04:51:25,646 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:25,646 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:26,073 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:26,074 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:58,033 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:58,033 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:58,518 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:58,518 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:58,993 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:58,993 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:59,483 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:59,484 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:51:59,992 - WARNING - [?] No face found, skipping
+2025-04-09 04:51:59,992 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:00,518 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:00,518 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:01,037 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:01,037 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:01,512 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:01,513 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:02,018 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:02,018 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:02,502 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:02,502 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:02,986 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:02,987 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:03,469 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:03,469 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:03,955 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:03,956 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:04,449 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:04,449 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:04,928 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:04,928 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:05,372 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:05,373 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:05,827 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:05,827 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:06,307 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:06,307 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 04:52:06,757 - WARNING - [?] No face found, skipping
+2025-04-09 04:52:06,757 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:36:52,704 - INFO - Starting detection script...
+2025-04-09 11:36:56,247 - INFO - Webcam opened successfully.
+2025-04-09 11:38:02,966 - INFO - [!] Unknown person detected
+2025-04-09 11:39:19,136 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:19,136 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:38,573 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:38,573 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:39,238 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:39,239 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:39,779 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:39,781 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:40,359 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:40,359 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:40,855 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:40,855 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:41,537 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:41,537 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:42,054 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:42,054 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:42,665 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:42,666 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:39:43,373 - WARNING - [?] No face found, skipping
+2025-04-09 11:39:43,374 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:40:08,053 - WARNING - [?] No face found, skipping
+2025-04-09 11:40:08,053 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:41:09,024 - WARNING - [?] No face found, skipping
+2025-04-09 11:41:09,024 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:14,773 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:14,773 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:15,337 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:15,337 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:15,831 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:15,831 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:16,301 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:16,301 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:16,729 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:16,729 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:17,159 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:17,159 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:17,501 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:17,501 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:17,874 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:17,874 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:18,243 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:18,243 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:18,575 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:18,575 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:18,955 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:18,955 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:19,323 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:19,323 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:19,663 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:19,663 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:19,985 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:19,985 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:20,317 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:20,317 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:20,659 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:20,659 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:21,025 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:21,025 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:21,377 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:21,377 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:21,719 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:21,719 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:22,091 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:22,091 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:22,422 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:22,422 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:22,760 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:22,760 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:23,116 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:23,116 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:44:23,511 - WARNING - [?] No face found, skipping
+2025-04-09 11:44:23,511 - WARNING - [?] No encoding found even though face was detected
+2025-04-09 11:45:08,935 - INFO - [!] Unknown person detected
